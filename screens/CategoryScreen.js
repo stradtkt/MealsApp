@@ -1,26 +1,38 @@
 import React from 'react';
-import { StyleSheet, FlatList, SafeAreaView } from 'react-native';
+import { StyleSheet, FlatList } from 'react-native';
 import CategoryGridTile from '../components/CategoryGridTile';
-import { CATEGORIES } from '../data/dummy-data';
-import Colors from '../constants/colors'
+import { CATEGORIES } from '../assets/data/dummy-data';
+import LinearGradient from 'react-native-linear-gradient';
+import Colors from '../constants/colors';
 
-;
-const renderCategoryItem = (itemData) => {
-    return <CategoryGridTile title={itemData.item.title} color={itemData.item.color}/>;
-};
 
-const CategoryScreen = () => {
+const CategoryScreen = ({navigation}) => {
+    const renderCategoryItem = (itemData) => {
+        const pressHandler = () => {
+            navigation.navigate('MealsOverview', {
+                categoryId: itemData.item.id
+            });
+        };
+        return <CategoryGridTile
+          title={itemData.item.title} 
+          color={itemData.item.color} 
+          onPress={pressHandler}
+        />;
+    };
   return (
-    <SafeAreaView style={styles.background}>
-        <FlatList data={CATEGORIES} keyExtractor={(item) => item.id} renderItem={renderCategoryItem} numColumns={2} style={styles.background}/>
-    </SafeAreaView>
+    <LinearGradient colors={[Colors.backgroundColor, Colors.offWhite, Colors.inverse]}>
+      <FlatList 
+        data={CATEGORIES} 
+        keyExtractor={(item) => item.id} 
+        renderItem={renderCategoryItem} 
+        numColumns={2} 
+      />
+    </LinearGradient>
   );
 }
 
 const styles = StyleSheet.create({
-    background: {
-        backgroundColor: Colors.backgroundColor,
-    }
+    
 });
 
 export default CategoryScreen;

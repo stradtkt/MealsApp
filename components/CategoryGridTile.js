@@ -1,8 +1,9 @@
 import React from 'react';
 import { StyleSheet, Pressable, Text, View, Platform } from 'react-native';
+import Colors from '../constants/colors';
 
-const CategoryGridTile = ({title, color}) => {
-  return (
+const CategoryGridTile = ({title, color, onPress}) => {
+    return (
     <View style={styles.gridItem}>
         <Pressable style={
             ({pressed}) => [
@@ -10,7 +11,9 @@ const CategoryGridTile = ({title, color}) => {
                 pressed 
                 ? styles.buttonPressed 
                 : null
-            ]} android_ripple={{color: '#ccc'}}>
+            ]} 
+            android_ripple={{color: '#ccc'}}
+            onPress={onPress}>
             <View style={[styles.innerContainer, {backgroundColor: color}]}>
                 <Text style={styles.title}>{title}</Text>
             </View>
@@ -30,8 +33,7 @@ const styles = StyleSheet.create({
         shadowOpacity: 0.25,
         shadowOffset: {width: 0, height: 2},
         shadowRadius: 8,
-        backgroundColor: 'white',
-        overflow: Platform.OS === 'android' ? 'hidden' : 'visible'
+        backgroundColor: 'white'
     },
     button: {
         flex: 1
@@ -47,8 +49,13 @@ const styles = StyleSheet.create({
         borderRadius: 8,
     },
     title: {
-        fontWeight: 'bold'
-    }
+        color: Colors.offWhite,
+        fontFamily: 'SourceSansPro-Bold',
+        fontSize: 18,
+        textShadowColor: Colors.inverse,
+        textShadowOffset: {height: 2, width: 0},
+        textShadowRadius: 4
+      }
 });
 
 export default CategoryGridTile;

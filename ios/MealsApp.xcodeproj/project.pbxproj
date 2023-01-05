@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* MealsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MealsAppTests.m */; };
+		05B858553D8E4A848E87D814 /* SourceSansPro-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E9946291E764889B58779F6 /* SourceSansPro-SemiBoldItalic.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-MealsApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-MealsApp.a */; };
+		10E33AB291BD4B46ACEE9349 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 891DA36DE45B4DE1B9F87C3A /* SourceSansPro-Regular.ttf */; };
+		138AE20D31684045A952BF24 /* SourceSansPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 677AC5E89A4941CF966AFD1A /* SourceSansPro-ExtraLight.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1666024D7C8F4F31836AAB7D /* SourceSansPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 418423E595674186BE2683A3 /* SourceSansPro-SemiBold.ttf */; };
+		214A6EBE1B4A40D08AED7E7B /* SourceSansPro-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A48B019F979541508C2C4A65 /* SourceSansPro-BlackItalic.ttf */; };
+		706AC69A6A5A4B84BCB1A937 /* SourceSansPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9955F5C7CA44689A23340AB /* SourceSansPro-Light.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-MealsApp-MealsAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-MealsApp-MealsAppTests.a */; };
+		777B46D0968E40AFA8601313 /* SourceSansPro-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4FDB537F76A41C3B80B4E63 /* SourceSansPro-ExtraLightItalic.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A6490DBC26D441F9AB27A8EC /* SourceSansPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6883033EBDF4E51B05B2595 /* SourceSansPro-BoldItalic.ttf */; };
+		AECD4616FC3D4F93B780906E /* SourceSansPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5841D98EFC324EB9AE4EE264 /* SourceSansPro-Bold.ttf */; };
+		CBACA6A66F3B4210A874AB3D /* SourceSansPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36B4C79E781C423DB56F3768 /* SourceSansPro-Italic.ttf */; };
+		E3CEDA5826644BD1899A8A70 /* SourceSansPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 425CBE59F1BE403BB546E243 /* SourceSansPro-Black.ttf */; };
+		E5C6AA43B18246E68C3CA7CC /* SourceSansPro-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE98918018BE4BE9A3355174 /* SourceSansPro-LightItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +49,24 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MealsApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MealsApp/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-MealsApp-MealsAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MealsApp-MealsAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E9946291E764889B58779F6 /* SourceSansPro-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceSansPro-SemiBoldItalic.ttf"; path = "../assets/fonts/SourceSansPro-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		36B4C79E781C423DB56F3768 /* SourceSansPro-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceSansPro-Italic.ttf"; path = "../assets/fonts/SourceSansPro-Italic.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-MealsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealsApp.debug.xcconfig"; path = "Target Support Files/Pods-MealsApp/Pods-MealsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		418423E595674186BE2683A3 /* SourceSansPro-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceSansPro-SemiBold.ttf"; path = "../assets/fonts/SourceSansPro-SemiBold.ttf"; sourceTree = "<group>"; };
+		425CBE59F1BE403BB546E243 /* SourceSansPro-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceSansPro-Black.ttf"; path = "../assets/fonts/SourceSansPro-Black.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-MealsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealsApp.release.xcconfig"; path = "Target Support Files/Pods-MealsApp/Pods-MealsApp.release.xcconfig"; sourceTree = "<group>"; };
+		5841D98EFC324EB9AE4EE264 /* SourceSansPro-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceSansPro-Bold.ttf"; path = "../assets/fonts/SourceSansPro-Bold.ttf"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-MealsApp-MealsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealsApp-MealsAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MealsApp-MealsAppTests/Pods-MealsApp-MealsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-MealsApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MealsApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		677AC5E89A4941CF966AFD1A /* SourceSansPro-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceSansPro-ExtraLight.ttf"; path = "../assets/fonts/SourceSansPro-ExtraLight.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MealsApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		891DA36DE45B4DE1B9F87C3A /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceSansPro-Regular.ttf"; path = "../assets/fonts/SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-MealsApp-MealsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealsApp-MealsAppTests.release.xcconfig"; path = "Target Support Files/Pods-MealsApp-MealsAppTests/Pods-MealsApp-MealsAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A48B019F979541508C2C4A65 /* SourceSansPro-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceSansPro-BlackItalic.ttf"; path = "../assets/fonts/SourceSansPro-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A4FDB537F76A41C3B80B4E63 /* SourceSansPro-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceSansPro-ExtraLightItalic.ttf"; path = "../assets/fonts/SourceSansPro-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		B9955F5C7CA44689A23340AB /* SourceSansPro-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceSansPro-Light.ttf"; path = "../assets/fonts/SourceSansPro-Light.ttf"; sourceTree = "<group>"; };
+		BE98918018BE4BE9A3355174 /* SourceSansPro-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceSansPro-LightItalic.ttf"; path = "../assets/fonts/SourceSansPro-LightItalic.ttf"; sourceTree = "<group>"; };
+		C6883033EBDF4E51B05B2595 /* SourceSansPro-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceSansPro-BoldItalic.ttf"; path = "../assets/fonts/SourceSansPro-BoldItalic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -122,6 +146,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				B4E0AA56BA884F93ADFA068E /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -135,6 +160,26 @@
 				00E356EE1AD99517003FC87E /* MealsAppTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B4E0AA56BA884F93ADFA068E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				425CBE59F1BE403BB546E243 /* SourceSansPro-Black.ttf */,
+				A48B019F979541508C2C4A65 /* SourceSansPro-BlackItalic.ttf */,
+				5841D98EFC324EB9AE4EE264 /* SourceSansPro-Bold.ttf */,
+				C6883033EBDF4E51B05B2595 /* SourceSansPro-BoldItalic.ttf */,
+				677AC5E89A4941CF966AFD1A /* SourceSansPro-ExtraLight.ttf */,
+				A4FDB537F76A41C3B80B4E63 /* SourceSansPro-ExtraLightItalic.ttf */,
+				36B4C79E781C423DB56F3768 /* SourceSansPro-Italic.ttf */,
+				B9955F5C7CA44689A23340AB /* SourceSansPro-Light.ttf */,
+				BE98918018BE4BE9A3355174 /* SourceSansPro-LightItalic.ttf */,
+				891DA36DE45B4DE1B9F87C3A /* SourceSansPro-Regular.ttf */,
+				418423E595674186BE2683A3 /* SourceSansPro-SemiBold.ttf */,
+				1E9946291E764889B58779F6 /* SourceSansPro-SemiBoldItalic.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -244,6 +289,18 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				E3CEDA5826644BD1899A8A70 /* SourceSansPro-Black.ttf in Resources */,
+				214A6EBE1B4A40D08AED7E7B /* SourceSansPro-BlackItalic.ttf in Resources */,
+				AECD4616FC3D4F93B780906E /* SourceSansPro-Bold.ttf in Resources */,
+				A6490DBC26D441F9AB27A8EC /* SourceSansPro-BoldItalic.ttf in Resources */,
+				138AE20D31684045A952BF24 /* SourceSansPro-ExtraLight.ttf in Resources */,
+				777B46D0968E40AFA8601313 /* SourceSansPro-ExtraLightItalic.ttf in Resources */,
+				CBACA6A66F3B4210A874AB3D /* SourceSansPro-Italic.ttf in Resources */,
+				706AC69A6A5A4B84BCB1A937 /* SourceSansPro-Light.ttf in Resources */,
+				E5C6AA43B18246E68C3CA7CC /* SourceSansPro-LightItalic.ttf in Resources */,
+				10E33AB291BD4B46ACEE9349 /* SourceSansPro-Regular.ttf in Resources */,
+				1666024D7C8F4F31836AAB7D /* SourceSansPro-SemiBold.ttf in Resources */,
+				05B858553D8E4A848E87D814 /* SourceSansPro-SemiBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
